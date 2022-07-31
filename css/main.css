@@ -3,7 +3,6 @@ html {
 }
 body {
 	max-width: 1200px;
-	width: 90%;
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 	font-size: 1em;
 	display: flex;
@@ -55,18 +54,20 @@ header {
 	border-bottom: 3px solid #77a466;
 	margin: 0 auto;
 	flex-flow: row wrap;
+	text-align: center;
 }
 
 header h1 {
 	margin: 0;
-	padding: 38px 0;
+	padding: 25px 0;
+	border-bottom: #77a466 3px solid;
 }
 header h1 span {
 	color: #77a466;
 }
 
-header av {
-	padding: 46px 0;
+header nav {
+	padding: 20px 0;
 }
 header nav ul {
 	margin: 0;
@@ -78,7 +79,7 @@ header nav ul li {
 	font-size: 14px;
 	padding: 0 10px;
 	list-style: none;
-	line-height: 2em;
+	line-height: 3em;
 }
 header nav ul li a{
 	text-decoration: none;
